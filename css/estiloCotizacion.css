@@ -1,0 +1,36 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Times New Roman';
+}
+.contenedor{
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    width: 800px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.izquierda{
+    width: 40%;
+   
+}
+
+.izquierda-arriba{
+    text-align: right;
+}
+
+.izquierda-abajo{
+
+   text-align: center;
+}
+
+
+.derecha-abajo{
+    height: 25%;
+}
+
+.derecha-arriba{
+    height: 70%;
+}

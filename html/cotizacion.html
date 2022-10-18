@@ -4,14 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estiloCotizacion.css">
+    <script src="/js/scriptCotizacion.js"></script>
     <title>Cotizacion</title>
 </head>
 <body>
 
-    <div >
+    <header>
+        <h1 style="text-align: center;">Cotizacion</h1>
+    </header>
+
+    <div class="contenedor">
+
+        
+
+        <div class="izquierda">
+            <div class="izquierda-arriba">
+                <label for="ValorAutomovil">Valor del automovil: </label>
+                <input type="text" name="Valor" id="Valor">
+                <br><br>
+                <label for="EngancheAutomovil">Enganche: </label>
+                <input type="text" name="enganche" id="enganche" disabled="true">
+                <br> <br>
+                <label for="Total">Total a financiar: </label>
+                <input type="text" name="TotalFinanciar" id="TotalFinanciar" disabled="true">
+            </div>
+            
+            <br><br>
+            <div class="izquierda-abajo">
+                <button>Calcular</button>
+                <button>Limpiar</button>
+            </div>
+               
+        </div>
+
+        <div class="derecha">
+            <div class="derecha-arriba">
+                <label for="Planes">Planes a credito:</label>
+                <select name="planes" id="planes" style="width: 50%; text-align: center;">
+                    <option value="12">12 Meses</option>
+                    <option value="18">18 Meses</option>
+                    <option value="24">24 Meses</option>
+                    <option value="36">36 Meses</option>
+                    <option value="48">48 Meses</option>
+                </select>
+            </div>
+            
+            <br>
+
+            <div class="derecha-abajo">
+                <label for="PagoMensual">Pago mensual:</label>
+                <input type="text" disabled="true">
+            </div>
+            
+        </div>
+        
+
+        
+
+        
+
+        
+            
 
     </div>
-
+            
     
 </body>
 </html>
