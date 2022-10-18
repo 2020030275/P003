@@ -1,4 +1,6 @@
 
+document.getElementById('Valor').required =true
+
 function calcular(){
     let valor = document.getElementById('Valor')
     let enganche = document.getElementById('enganche')
